@@ -17,3 +17,8 @@ app.get("/contact", (req, res) => {
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });
+
+//Step1: npm init -y
+//Step2: npm i express
+//Step3: npm i -g nodemon
+//Step4: nodemon indexjs
