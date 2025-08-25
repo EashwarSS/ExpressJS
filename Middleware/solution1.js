@@ -21,3 +21,8 @@ app.post("/submit", (req, res) => {
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
+
+//Step1: npm i
+//Step2: npm i body-parser
+//Step3: nodemon solution1.js
+//Step4: Open localhost:3000, submit the form and see the data in console
